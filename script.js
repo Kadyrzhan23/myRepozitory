@@ -13,3 +13,8 @@ function stringСomparisons (a,b){
 }
 // console.log(stringСomparisons(word1,word2))
 //-------------------------------------------------------------------------------------------------
+let a = 'hello'
+function firstLetterCapital(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+console.log(firstLetterCapital(a))
